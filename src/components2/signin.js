@@ -106,7 +106,7 @@ class Signin extends Component {
                     break;
                     
                              case "phone":
-                                 console.log(event.target.value +"shoaib")
+                                 console.log(event.target.value +"zaib")
                      if((event.target.value!=0 ||event.target.value=="")&& event.target.value.length<11  ){
                          
                          text[type] = event.target.value;

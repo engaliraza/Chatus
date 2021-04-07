@@ -326,7 +326,7 @@ class Messages extends React.Component{
 								{/* <!--msg-title end--> */}
 								<div className="messages-list" style={{overflow:'auto',minHeight:'600px'}}>
 									<ul>
-										{this.state.loading?<div style={{textAlign:'center'}}><Dots color="#788EA8" animating={true} size={34} speed={1}  /></div>
+										{this.state.loading?<div style={{textAlign:'center'}}><Dots color="#2898ed" animating={true} size={34} speed={1}  /></div>
 											:
 											<Conversations/>	
 										}

@@ -12,7 +12,7 @@
     "start": "concurrently \"npm run client \"  \" npm run server\""
   },
   "keywords": [],
-  "author": "Shoaib Noor",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",

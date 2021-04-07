@@ -84,31 +84,31 @@ module.exports={
                 loader: "file-loader"}
             ]
     },
-    optimization: {
-        splitChunks: {
-          chunks: 'async',
-          minSize: 30000,
-          maxSize: 0,
-          minChunks: 1,
-          maxAsyncRequests: 6,
-          maxInitialRequests: 4,
-          automaticNameDelimiter: '~',
-          automaticNameMaxLength: 30,
-          cacheGroups: {
-            defaultVendors: {
-              test: /[\\/]node_modules[\\/]/,
-              priority: -10
-            },
-            default: {
-              minChunks: 2,
-              priority: -20,
-              reuseExistingChunk: true
-            }
-          }
-        }
-    },
+    // optimization: {
+    //     splitChunks: {
+    //       chunks: 'async',
+    //       minSize: 30000,
+    //       maxSize: 0,
+    //       minChunks: 1,
+    //       maxAsyncRequests: 6,
+    //       maxInitialRequests: 4,
+    //       automaticNameDelimiter: '~',
+    //       automaticNameMaxLength: 30,
+    //       cacheGroups: {
+    //         defaultVendors: {
+    //           test: /[\\/]node_modules[\\/]/,
+    //           priority: -10
+    //         },
+    //         default: {
+    //           minChunks: 2,
+    //           priority: -20,
+    //           reuseExistingChunk: true
+    //         }
+    //       }
+    //     }
+    // },
     plugins:[
-        new webpack.ProgressPlugin(),
+        // new webpack.ProgressPlugin(),
         new CleanWebpackPlugin({dry: true}),
         new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
     ]

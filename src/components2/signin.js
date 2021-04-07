@@ -269,13 +269,12 @@ class Signin extends Component {
         <div className="signin-pop">
             <div className="row">
                 <div className="col-lg-6">
+                <img src="/308.jpg" alt="chatlogocaption" style={{width:'400px', height:'410px'}}/>
                     <div className="cmp-info">
                         <div className="cm-logo">
-                            <img src="images/cm-logo.png" alt=""/>
-                            <p>Lets Connect Businesses</p>
                         </div>
                         {/* <!--cm-logo end-->	 */}
-                        <img src="/308.jpg" alt="chatlogocaption" style={{left='160px', top='100px'}}/>			
+                      			
                     </div>
                     {/* <!--cmp-info end--> */}
                 </div>

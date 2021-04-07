@@ -4589,15 +4589,16 @@ a:hover {
 /* ============== messages-page ============== */
 
 .messages-page {
-	padding: 50px 0 75px 0;
+	padding: 15px 0 7px 0;
 }
 .messages-sec {
 	float: left;
 	width: 100%;
 }
 .msgs-list {
-	float: left;
-	width: 100%;
+	float: right;
+	width: 117%;
+	height: 108%;
 	background-color: #fff;
 	border-left: 1px solid #e4e4e4;
 	border-bottom: 1px solid #e4e4e4;
@@ -4606,7 +4607,7 @@ a:hover {
 .msg-title {
 	float: left;
 	width: 100%;
-	padding: 36px 20px;
+	padding: 3px 8px;
 }
 .msg-title > h3 {
 	color: #000000;
@@ -4741,7 +4742,7 @@ a:hover {
 }
 .message-bar-head {
 	float: left;
-	width: 100%;
+	width: 107%;
 	background-color: rgba(255,255,255,0.95);
 	padding: 20px;
 	border-bottom: 1px solid #eaeaea;
@@ -4859,7 +4860,7 @@ a:hover {
 }
 .messages-line {
 	float: left;
-	width: 100%;
+	width: 107%;
 	height: 604px;
 }
 
@@ -4867,7 +4868,7 @@ a:hover {
 
 .message-send-area {
 	float: left;
-	width: 100%;
+	width: 107%;
 	background-color: #f3f5f7;
 	padding: 25px 20px 15px 20px;
 	border: 1px solid #eeeeee;

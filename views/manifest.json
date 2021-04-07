@@ -1,6 +1,6 @@
 {
-  "short_name": "Institute",
-  "name": "Institute Front end",
+  "short_name": "Chatus",
+  "name": "Chatus Front end",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

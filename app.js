@@ -27,7 +27,7 @@ app.use(helmet({
 app.use(express.static("public"));
 
 let port=process.env.PORT || 3000
-app.use(favicon(path.join(__dirname, 'public', 'tutors.png')))
+app.use(favicon(path.join(__dirname, 'public', 'chatlogo.png')))
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(cookieParser());

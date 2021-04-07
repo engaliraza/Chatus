@@ -156,7 +156,7 @@ class PrimarySearchAppBar extends React.Component {
     <div className="container">
         <div className="header-data">
             <div className="logo">
-                <Link to={"/"+this.state.username} ><img src="/tutors.png" alt="tutors-logo" style={{width:'40px',height:'40px'}}/></Link>
+                <Link to={"/"+this.state.username} ><img src="/chatlogo.png" alt="chat-logo" style={{width:'80px',height:'80px'}}/></Link>
             </div>
             {/* <!--logo end--> */}
             {/* <div className="search-bar">

@@ -272,10 +272,10 @@ class Signin extends Component {
                     <div className="cmp-info">
                         <div className="cm-logo">
                             <img src="images/cm-logo.png" alt=""/>
-                            <p>This is the demonstration of chat application for my university teacherfg</p>
+                            <p>Lets Connect Businesses</p>
                         </div>
                         {/* <!--cm-logo end-->	 */}
-                        <img src="/308.jpg" alt=""/>			
+                        <img src="/308.jpg" alt="chatlogocaption" style={{left='160px', top='100px'}}/>			
                     </div>
                     {/* <!--cmp-info end--> */}
                 </div>

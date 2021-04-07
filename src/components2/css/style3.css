@@ -128,7 +128,7 @@ img {
 p {
 	font-size: 14px;
 	line-height: 24px;
-	color: #666666;
+	color: #dd5427;
 }
 hr {
     margin-top: 1rem;
@@ -1270,7 +1270,7 @@ main {
 	font-weight: 600;
 }
 .job_descp > p {
-	color: #666666;
+	color: #dd5427;
 	font-size: 15px;
 	line-height: 24px;
 	margin-bottom: 20px;
@@ -2103,7 +2103,7 @@ select {
 	margin-bottom: 30px;
 }
 .cm-logo > p {
-	color: #666666;
+	color: #dd5427;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -2237,7 +2237,7 @@ select {
 	position: absolute;
 	top: 50%;
 	left: 15px;
-	color: #666666;
+	color: #dd5427;
 	font-size: 16px;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -2250,7 +2250,7 @@ select {
 	top: 50%;
 	right: 15px;
 	font-weight: 700;
-	color: #666666;
+	color: #dd5427;
     font-size: 15px;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -3800,7 +3800,7 @@ a:hover {
 }
 .filter--tt2 .dropdown .dropdown-menu a {
     float: none;
-    color: #666666 !important;
+    color: #dd5427 !important;
 	margin-bottom: 12px !important;
 }
 .filter--tt2 .dropdown .dropdown-menu a:hover {
@@ -3828,11 +3828,11 @@ a:hover {
 .filter-ttl a {
 	float: right;
 	font-size: 14px;
-	color: #666666;
+	color: #dd5427;
 }
 .filter-ttl .dropdown a {
 	float: none;
-	color: #666666;
+	color: #dd5427;
 }  
 .filter-dd {
 	float: left;
@@ -3857,7 +3857,7 @@ a:hover {
 	border: 1px solid #e5e5e5;
 }
 .job-tp i {
-	color: #666666;
+	color: #dd5427;
     position: absolute;
     top: 9px;
     right: 15px;
@@ -5673,7 +5673,7 @@ a:hover {
 	padding: 7px 20px;
 }
 .devepbtn a{
-	color: #666666;
+	color: #dd5427;
     border: 1px solid #b2b2b2;
     padding: 7px 10px 7px 10px;
     border-radius: 3px;
@@ -6235,7 +6235,7 @@ a:hover {
 }
 .comt span{
 	font-size: 16px;
-	color: #666666;
+	color: #dd5427;
 }
 .comt i{
 	padding-right: 8px;
@@ -6407,7 +6407,7 @@ a:hover {
     border: 1px solid #e5e5e5;
 }
 .input-group-text { 
-    color: #666666 !important;
+    color: #dd5427 !important;
     background-color: #f5f5f5 !important;
 	border: 0px !important;
     border-radius: 3px !important;
@@ -6540,7 +6540,7 @@ ul#myTab {
 	padding-bottom: 0;
 }
 .savedjob-info p{
-	color: #666666;
+	color: #dd5427;
 	margin-top: 5px;
 }
 #my-bids ul li a{
@@ -6837,5 +6837,5 @@ ul#myTab {
     vertical-align: top;
     line-height: 24px;
     font-size: 14px;
-    color: #666666;
+    color: #dd5427;
 }

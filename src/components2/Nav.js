@@ -180,7 +180,7 @@ class PrimarySearchAppBar extends React.Component {
                             
                         
  </span>
-                            Messages
+                            Back to Messages
 </Link>
                     {this.state.mCounter>0?
                       <span style={{position:"absolute",top:"-1px",right:"-40px",left:"0px",color:"red"}}>{this.state.mCounter}</span>
@@ -225,7 +225,7 @@ class PrimarySearchAppBar extends React.Component {
                 </div>  
                 {this.state.toggleMenu? <div className="user-account-settingss active">
                     
-                    <h3 className="tc" onClick={this.logout.bind(this)}><Link to="#" >Logout</Link></h3>
+                    <h3 className="tc" type="button" onClick={this.logout.bind(this)}><Link to="#" >Logout</Link></h3>
                 </div>:<div/>}
                 {/* <!--user-account-settingss end--> */}
             </div>:<div/>}

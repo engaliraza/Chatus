@@ -1,0 +1,22 @@
+{
+    "db":{
+        "username":"",
+        "password":"",
+        "host":"localhost",
+        "port":"27017",
+        "name":"test"
+    },
+    "sessionSecret":"!@#$%^&*()%%^$&()_T%^F:FRNC@%$*(_)+",
+    "facebook":{
+        "clientID":"<AppID>",
+        "clientSecret":"<AppSecret>",
+        "callbackURL":"/auth/facebook/callback",
+        "profileFields":["id","displayName","photos"]
+    },
+    "redis":{
+        "host":"localhost",
+        "port":"27017",
+        "password":""
+    }
+}
+
